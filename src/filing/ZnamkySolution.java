@@ -9,7 +9,7 @@ import java.util.List;
 public class ZnamkySolution {
     public static void main(String[] args) throws IOException {
 
-        String dataPath = "data/znamky.txt";
+        String dataPath = "data/znamky";
         String outputPath = "data/znamky/";
         String fileFormat = ".txt";
 

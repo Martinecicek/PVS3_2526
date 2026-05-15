@@ -5,6 +5,8 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
 public class SensorTask {
     static ArrayList<Reading> validReadings = new ArrayList<>();
@@ -40,6 +42,8 @@ public class SensorTask {
 
             br.close();
         }
+
+
         System.out.println("Valids: " + validReadings.size());
         System.out.println("Invalids: " + invalidReadings.size());
         System.out.println(invalidReadings);
